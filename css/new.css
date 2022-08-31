@@ -1,0 +1,152 @@
+
+	/* Conatct start */
+
+    .header-title
+    {
+      text-align: center;
+      color:#00bfff;
+    }
+
+    #tip 
+    {
+        display:none;  
+    }
+
+    .fadeIn
+    {
+      animation-duration: 3s;
+    }
+
+    .form-control
+    {
+        border-radius:0px;
+        border:1px solid #EDEDED;
+    }
+
+    .form-control:focus
+    {
+        border:1px solid #00bfff;
+    }
+
+    .textarea-contact
+    {
+        resize:none; 
+    }
+
+    .btn-send
+    {
+        border-radius: 0px;
+        border:1px solid #00bfff;
+        background:#00bfff;
+        color:#fff; 
+    }
+
+    .btn-send:hover
+    {
+        border:1px solid #00bfff;
+        background:#fff;
+        color:#00bfff;
+        transition:background 0.5s;   
+    }
+
+    .first-portion
+    {
+        margin-top:25px; 
+        background-color: #171717;
+    }
+
+    .second-portion
+    {
+        margin-top:50px; 
+    }
+
+            @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+    @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #1FB91C;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #FFC72C;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        background-color: #2020;
+        padding: 10px;
+      }
+      
+      .container101{
+        padding-top: 20px;
+      }
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 110px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+
+    .box > .icon { text-align: center; position: relative; }
+    .box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 90px; height: 90px; border: 10px solid #202020; line-height: 90px; border-radius: 50%; background: #202020; vertical-align: middle; }
+    .box > .icon:hover > .image { background: #FFC72C; }
+    .box > .icon > .image > i { font-size: 40px !important; color: #fff !important; }
+    .box > .icon:hover > .image > i { color: black !important; }
+    .box > .icon > .info { margin-top: -10px; color:white; border: 1px solid #fff; padding: 35px 0 10px 0; min-height:170px;}
+    .box > .icon:hover > .info {border-color: #fff; color: white; }
+    .box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color:white; font-weight: 700; }
+    .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color:white; line-height: 1.5em; margin: 20px;}
+    .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #fff; }
+    .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #fff; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+    .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px;}
+    .box .space { height: 30px; }
+
+    @media only screen and (max-width: 768px)
+    {
+        .contact-form
+        {
+            margin-top:25px; 
+        }
+
+        .btn-send
+        {
+            width: 100%;
+            padding:10px; 
+        }
+
+        .second-portion
+        {
+            margin-top:25px; 
+        }
+    }
+/* Conatct end */

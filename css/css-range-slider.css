@@ -1,0 +1,45 @@
+.noUi-horizontal {
+    height: 4px;
+}
+
+.noUi-connect {
+    background: linear-gradient(to right, #f4c05f 50%, #058240 100%);
+}
+
+.change-position .noUi-connect {
+    background: #FFFFFF;
+}
+
+.noUi-connects {
+    margin-top: -1px;
+    height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: -8px;
+    background: linear-gradient(to right, #f4c05f 50%, #058240 100%);
+    border: none;
+}
+
+.change-position .noUi-horizontal .noUi-handle {
+    background: #ffffff;
+}
+
+.noUi-target {
+    background: #b2aeae;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    box-shadow: inset 0 1px 1px #d5c9c9, 0 3px 6px -5px #eaeaea;
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+    display: none;
+}
+
+.noUi-handle {
+    box-shadow: none;
+}
