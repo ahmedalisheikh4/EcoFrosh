@@ -764,8 +764,8 @@ header .user-links li a .badge {
 }
 
 .header-appear .main-navigation {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .header-appear .main-navigation nav .navbar-nav .nav-link .nav-link {
@@ -2094,6 +2094,13 @@ select::placeholder {
     visibility: visible;
     transform: translateY(0px);
     z-index: 9;
+    right: 145px;
+}
+li.header-shop-cart{
+    margin-right: 25px !important;
+}
+li.user-menu-cart {
+    margin-left: 25px !important;
 }
 
 .header-shop-cart .minicart .minicart-content {
