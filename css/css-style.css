@@ -481,7 +481,7 @@ ul {
 }
 
 .sub-heading {
-    background: linear-gradient(to right, #f4c05f 50%, #058240 100%);
+    background-color: #1FB91C;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto', sans-serif;
@@ -506,7 +506,7 @@ ul {
 }
 
 .heading {
-    color: #ffffff;
+    color: #FFC72C;
     font-family: 'Grand Hotel', cursive;
     font-size: 72px;
     font-weight: 400;
@@ -526,7 +526,7 @@ ul {
 }
 
 .color-white {
-    color: #ffffff;
+    color: #FFC72C;
 }
 
 .white-trans-btn {
